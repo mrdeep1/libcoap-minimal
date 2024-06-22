@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        LIBVER: ["v4.3.4", "develop"]
+        LIBVER: ["v4.2.1", "v4.3.0", "v4.3.1", "v4.3.2", "v4.3.3", "v4.3.4", "develop"]
     steps:
       - uses: actions/checkout@v4
       - name: setup
